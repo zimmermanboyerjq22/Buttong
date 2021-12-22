@@ -1,0 +1,2 @@
+# Buttong
+#include "UIAWrappers.au3" AutoItSetOption("MustDeclareVars", 1) Local $oP0  $oP0=_UIA_action("Title:=;controltype:=Pane;class:=Shell_TrayWnd", "getobject") _UIA_Action($oP0,"move")  _UIA_action("title:=Starten;classname:=Button;controltype:=Button","move") _UIA_action("title:=Starten;classname:=Button;controltype:=Button","invoke")  ;~ _UIA_action("title:=Start.*;classname:=Button;instance:=2","move") ;~ _UIA_action("title:=Start.*;classname:=Button;instance:=2","invoke")
